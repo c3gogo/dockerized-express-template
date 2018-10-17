@@ -1,0 +1,16 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "dockerized node-express-app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Corentin GOGO",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4"
+  }
+}
